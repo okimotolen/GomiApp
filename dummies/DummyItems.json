@@ -1,0 +1,32 @@
+[
+  {
+   "title":"燃えるゴミ",
+   "day":"火",
+   "month":new Date().getMonth(),
+   "date":new Date().getDay()>2 ? new Date().getDate()-new Date().getDay()+9:new Date().getDate()-new Date().getDay()+2,
+  },
+  {
+   "title":"容器包装プラスチック",
+   "day":"水",
+   "month":new Date().getMonth(),
+   "date":new Date().getDay()>3 ? new Date().getDate()-new Date().getDay()+10:new Date().getDate()-new Date().getDay()+3,
+  },
+  {
+   "title":"燃えるゴミ",
+   "day":"金",
+   "month":new Date().getMonth(),
+   "date":new Date().getDay()>5 ? new Date().getDate()-new Date().getDay()+12:new Date().getDate()-new Date().getDay()+5,
+  },
+  {
+   "title":"ビン・缶",
+   "day":"水",
+   "month":new Date().getMonth(),
+   "date":new Date().getDay()>2 ? new Date().getDate()-new Date().getDay()+9:new Date().getDate()-new Date().getDay()+2,
+  },
+  {
+   "title":"金属類",
+   "day":"水",
+   "month":new Date().getMonth(),
+   "date":new Date().getDay()>2 ? new Date().getDate()-new Date().getDay()+9:new Date().getDate()-new Date().getDay()+2,
+  },
+]
